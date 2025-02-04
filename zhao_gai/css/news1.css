@@ -1,0 +1,41 @@
+#logo {
+		height: 90px;
+		background: url(http://www.ijml.net/public/static/images/logo.png) 10% center no-repeat; 
+		text-indent: 25%;
+		line-height: 90px;
+		font-size: 25px;
+}
+a {
+	text-decoration: none;
+}
+a:link{
+	color: #000;
+}
+a:visited{
+	color: #000;
+}
+.hangju{
+	line-height: 1.5;
+}
+div1 {
+	display: inline-block;
+	text-indent:3.5em;
+	font-weight: 700;
+	font-size: 30px;
+}
+body {
+	background-image: url(../img/safeidea_bg.png);
+	background-position: left 140px;
+	background-repeat: no-repeat;
+	font-family: microsoft yahei;
+}
+.suojin{
+	text-indent: 10%;
+}
+.kongge{
+	text-indent: 1em;
+}
+.ziju{
+	text-indent: 2em;
+	letter-spacing: 2px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>今麦郎合作</title>
+	</head>
+	<body>		
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ijml.net/public/static/images/logo.png" alt="今麦郎logo"/>
+		<p align="center" style="font-size: 50px;"><b>今麦郎食品欢迎您的加入</b></p>
+		<!-- 谷歌不给自动播放 需要加muted设置静音 -->
+		<video width="800" autoplay="autoplay" controls="controls" style="clear:both;display:block;margin:auto" >
+			<source src="../img/index_banner_video.mp4" type="video/mp4" ></source>
+		</video>
+			<table align="center">
+				<tr>
+					<td>
+						<form action="xxx.php" method="get">
+						<!-- maxlength最大输入长度 -->
+							姓名：<input type="text" /> <br>
+							<!-- password密码输入框 -->
+							手机号：<input type="text" maxlength="11"/> <input type="button" value="获取验证码" /> <br />
+							验证码：<input type="password" maxlength="10"/> <br />
+							<!-- radio单选 checkbox复选框 使用时需要用name命名相同值  value可以直接显示到网页也可以将数据传到后台 checked="checked"起始就选择 -->
+							<!-- label for=""是箭头指到文字时即可选中文本框或按钮  在input后面需要加上id="" for和id需要相同 -->
+							性别：<input type="radio" name="sex" value="男" checked="checked" id="male"/><label for="male">男</label> &nbsp;&nbsp;&nbsp; <input type="radio" name="sex" value="女" id="famale"/><label for="famale">女</label><br />
+							爱好：<input type="checkbox" name="aihao" value="吃饭"/>吃饭 &nbsp;&nbsp;&nbsp; <input type="checkbox" name="aihao" value="睡觉"/>睡觉&nbsp;&nbsp;&nbsp; 
+							<input type="checkbox" name="aihao" value="学习" checked="checked"/>学习<br />
+							<!-- select下拉菜单 最少包含一对option  selected="selected"打开网页时就选择上-->
+							您将发展的地方
+							<select>
+								<option selected="selected">北京</option>
+								<option>天津</option>
+								<option>上海</option>
+								<option>重庆</option>
+								<option>内蒙古</option>
+								<option>广西</option>
+								<option>西藏</option>
+								<option>宁夏</option>
+								<option>新疆</option>
+								<option>香港</option>
+								<option>澳门</option>
+								<option>河北</option>
+								<option>山西</option>
+								<option>辽宁</option>
+								<option>吉林</option>
+								<option>黑龙江</option>
+								<option>江苏</option>
+								<option>浙江</option>
+								<option>安徽</option>
+								<option>福建</option>
+								<option>江西</option>
+								<option>山东</option>
+								<option>河南</option>
+								<option>湖北</option>
+								<option>湖南</option>
+								<option>广东</option>
+								<option>海南</option>
+								<option>四川</option>
+								<option>贵州</option>
+								<option>云南</option>
+								<option>陕西</option>
+								<option>甘肃</option>
+								<option>青海</option>
+								<option>台湾</option>
+							</select><br />
+							<!-- file上传文件 -->
+							您的申请材料：<input type="file" /><br />
+							<!-- textarea文本域标签  大文本框 cols一行多少字 rows多少行  实际上使用css修改框大小-->
+							个人简介<textarea cols="40" rows="5"></textarea>
+							<!-- 重置 -->
+							<p align="left"><input type="reset" value="重新填写" /> </p>
+							<!-- 上传到指定地址 -->
+							<p align="right"><input type="submit" value="申请" formaction="../index.html" /><br /></p>
+						</form>
+					</td>
+				</tr>
+			</table>
+	</body>
+</html>
