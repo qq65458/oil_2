@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>油菜花体验基地</title>
+<style type="text/css">
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    background: url('index2.jpg') no-repeat center center fixed; /* 替换为实际的封面图路径 */
+    background-size: cover;
+    color: #333; /* 文字颜色可以根据需要调整 */
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    height: 100vh; /* 确保封面占满整个视口高度 */
+}
+
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7); /* 半透明白色覆盖层 */
+    z-index: 1;
+}
+
+.cover h1, .cover p, .cover .cta-button {
+    position: relative;
+    z-index: 2; /* 确保文本和按钮位于覆盖层之上 */
+    color: #333; /* 根据需要调整颜色 */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #28a745;
+}
+.product {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 确保页面在移动设备上的缩放 -->
+</head>
+<body>
+<header class="cover">
+    <h1>欢迎来到我们的油菜花体验基地</h1>
+    <p>探索自然之美，体验油菜花的魅力。</p>
+    <a href="index1.html" class="cta-button">进入首页</a>
+</header>
+</body>
+</html>
